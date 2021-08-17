@@ -1,0 +1,76 @@
+body {
+    background-image: url(image_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Main {
+    position: relative;
+    top: 105px;
+    left: 40%;
+    width: 600px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    background-color: rgb(72, 199, 216);
+    padding: 30px 20px;
+    box-shadow: 10px 10px 5px 3px gray;
+}
+
+#firstquote {
+    font-size: 40px;
+    display: inline-block;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: 'Style Script', cursive;
+}
+
+#Donate-button {
+    padding: 10px 15px;
+    background-color: darkgray;
+    display: inline;
+    align-items: center;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+#Donate-button:hover {
+    background-color: gray;
+}
+
+#donate_link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#paragraph {
+    font-family: 'Crimson Text', serif;
+    font-size: large;
+}
+
+#list {
+    list-style-type: none;
+    background-color: green;
+    overflow: auto;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-around;
+}
+
+#list a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#list a:hover {
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+a:hover {
+    position: relative;
+    top: 4px;
+    left: 4px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Donation page</title>
+    <link rel="stylesheet" href="payment.css" type='text/css'>
+    <link rel="icon" href="logo3.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <marquee>
+        <h1> <u> Thank You for showing your interest and helping us to make a change</u></h1>
+    </marquee>
+    <div id='Main'>
+        <h2><u>Please fill the necessary details.</u></h2>
+        <form action="">
+
+            <fieldset>
+                <legend class='heading'>Personal Information:</legend>
+                <label for="name">Please Enter your name: </label>
+                <input type="text" id='name' required>
+                <br> <br>
+                <label for="number">Mobile no. :</label>
+                <input type="number" id='number' required placeholder="XXXXXXXXXX">
+                <br><br>
+                <label for="state">Please enter your State/Union territory</label>
+                <select name="STATE" id="state" required>
+                <optgroup label='State'>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                </optgroup>
+                <optgroup label="Union Territory">
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Jammu and Kashm">Jammu and Kashm</option>
+                    <option value="Ladakh">Ladakh</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Puducherry">Puducherry</option>
+                </optgroup>
+            </select>
+
+                <br><br>
+
+                <label for="District">District</label>
+                <input type="text" id='District' required>
+            </fieldset>
+            <br><br><br>
+            <fieldset>
+                <legend class='heading'>Donation Details:</legend>
+                <label for="cause-of-donation">Cause of Donation:</label>
+                <textarea id="cause-of-donation" cols="70" rows="7" required></textarea>
+                <br><br>
+                <label for="amount">Please Enter the amount(in INR): </label>
+                <input type="number" required id='amount'>
+                <br><br>
+                <label>Mode of Payment:</label>
+                <input type="radio" name='mode' required>Credit Card
+                <input type="radio" name='mode'>Debit Card
+                <input type="radio" name='mode'>RazorPay
+            </fieldset>
+            <br><br>
+            <button><a href="https://rzp.io/l/bMNMkcoUz">DONATE</a></button>
+        </form>
+        <br><br>
+        <span>Extra feature:</span>
+        <p id='upi'>If you want to pay via UPI Click below:</p>
+        <button id='upiButton'>PAY VIA UPI SCAN</button>
+        <br> <br>
+        <img src="UPI Scan.jpeg" id='upiImage' alt="UPI scan">
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+
+</html>

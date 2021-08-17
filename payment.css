@@ -1,0 +1,71 @@
+html {
+    padding-bottom: 300px;
+}
+
+body {
+    background-image: url(image_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Main {
+    position: relative;
+    top: 50px;
+    left: 10%;
+    width: 600px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 5px 3px darkgray;
+}
+
+.heading {
+    font-family: 'Source Code Pro', monospace;
+    font-size: large;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: large;
+    margin-left: 32%;
+}
+
+button:hover {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: 4px 4px 3px violet;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+marquee {
+    color: blueviolet;
+    font-family: 'Style Script', cursive;
+}
+
+textarea {
+    resize: none;
+}
+
+#upi {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#upiImage {
+    height: 300px;
+    width: 300px;
+    margin-left: 23%;
+    display: none;
+}
